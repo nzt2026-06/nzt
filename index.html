@@ -1,16 +1,161 @@
 <!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Nationaler Zukunftstag | Mädchen-Informatik-los!"
+    />
+    <title>Nationaler Zukunftstag</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Nationaler Zukunftstag | Mädchen-Informatik-los!">
-    <title>Hallo NZT</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Nationaler Zukunftstag</p>
+        <h1>COMICS UND CO</h1>
+        <p class="hero__text">
+          Kreative Ideen, süße Geschichten und kleine Bastelabenteuer für einen
+          fröhlichen Tag voller Fantasie.
+        </p>
+      </div>
+    </header>
 
-<body>
-    <h1>Hallo Nationaler Zukunftstag <br> Mädchen-Informatik-los!</h1>
-</body>
+    <main class="page">
+      <section class="category" aria-labelledby="comics-title">
+        <div class="category__header">
+          <p class="category__label">Comics</p>
+          <h2 id="comics-title">Geschichten &amp; Figuren</h2>
+        </div>
 
+        <div class="gallery gallery--single">
+          <button class="card card--feature" type="button" data-src="Katzenchaos und suesse Nickerchen.png" data-title="Katzenchaos &amp; Nickerchen" aria-label="Katzenchaos und süße Nickerchen öffnen">
+            <img src="Katzenchaos und suesse Nickerchen.png" alt="Katzenchaos und süße Nickerchen" />
+            <div class="card__body">
+              <span class="card__number">01</span>
+              <h3>Katzenchaos &amp; Nickerchen</h3>
+            </div>
+          </button>
+
+          <button class="card card--feature" type="button" data-src="Stumme Pfotenfreunde voller Chaos (1).png" data-title="Stumme Pfotenfreunde" aria-label="Stumme Pfotenfreunde voller Chaos öffnen">
+            <img src="Stumme Pfotenfreunde voller Chaos (1).png" alt="Stumme Pfotenfreunde voller Chaos" />
+            <div class="card__body">
+              <span class="card__number">02</span>
+              <h3>Stumme Pfotenfreunde</h3>
+            </div>
+          </button>
+
+          <button class="card card--feature" type="button" data-src="Herzensabenteuer mit kleinem Kaetzchen.png" data-title="Herzensabenteuer" aria-label="Herzensabenteuer mit kleinem Kätzchen öffnen">
+            <img src="Herzensabenteuer mit kleinem Kaetzchen.png" alt="Herzensabenteuer mit kleinem Kätzchen" />
+            <div class="card__body">
+              <span class="card__number">03</span>
+              <h3>Herzensabenteuer</h3>
+            </div>
+          </button>
+
+          <button class="card card--feature" type="button" data-src="Anime-Schatzsuche im Sonnenuntergang.png" data-title="Schatzsuche" aria-label="Schatzsuche im Sonnenuntergang öffnen">
+            <img src="Anime-Schatzsuche im Sonnenuntergang.png" alt="Schatzsuche im Sonnenuntergang" />
+            <div class="card__body">
+              <span class="card__number">04</span>
+              <h3>Schatzsuche</h3>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <section class="category" aria-labelledby="craft-title">
+        <div class="category__header">
+          <p class="category__label">Bastelideen</p>
+          <h2 id="craft-title">DIY &amp; kreative Projekte</h2>
+        </div>
+
+        <div class="gallery gallery--single">
+          <button class="card card--feature" type="button" data-src="Herbst-Deko_ Süßes Blätter-Mobile basteln.png" data-title="Herbst-Deko" aria-label="Herbst-Deko öffnen">
+            <img src="Herbst-Deko_ Süßes Blätter-Mobile basteln.png" alt="Herbst-Deko mit Blätter-Mobile" />
+            <div class="card__body">
+              <span class="card__number">05</span>
+              <h3>Herbst-Deko</h3>
+            </div>
+          </button>
+
+          <button class="card card--feature" type="button" data-src="Papierflieger falten – Schritt für Schritt.png" data-title="Papierflieger" aria-label="Papierflieger falten öffnen">
+            <img src="Papierflieger falten – Schritt für Schritt.png" alt="Papierflieger falten" />
+            <div class="card__body">
+              <span class="card__number">06</span>
+              <h3>Papierflieger</h3>
+            </div>
+          </button>
+
+          <button class="card card--feature" type="button" data-src="DIY-Pop-up-Herzkarte basteln.png" data-title="Herzkarte" aria-label="DIY Pop-up Herzkarte basteln öffnen">
+            <img src="DIY-Pop-up-Herzkarte basteln.png" alt="DIY Pop-up Herzkarte basteln" />
+            <div class="card__body">
+              <span class="card__number">07</span>
+              <h3>Herzkarte</h3>
+            </div>
+          </button>
+
+          <button class="card card--feature" type="button" data-src="Schritt-für-Schritt-Anleitung für perfekten Slime (1).png" data-title="Slime" aria-label="Perfekter Slime öffnen">
+            <img src="Schritt-für-Schritt-Anleitung für perfekten Slime (1).png" alt="Perfekter Slime Anleitung" />
+            <div class="card__body">
+              <span class="card__number">08</span>
+              <h3>Slime</h3>
+            </div>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightbox__panel" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+        <button class="lightbox__close" type="button" id="lightbox-close" aria-label="Bild schließen">×</button>
+        <img class="lightbox__image" id="lightbox-image" src="" alt="" />
+        <p class="lightbox__title" id="lightbox-title">Bild</p>
+      </div>
+    </div>
+
+    <script>
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImage = document.getElementById('lightbox-image');
+      const lightboxTitle = document.getElementById('lightbox-title');
+      const closeButton = document.getElementById('lightbox-close');
+      const galleryButtons = document.querySelectorAll('.card');
+
+      function openLightbox(src, title) {
+        lightboxImage.src = src;
+        lightboxImage.alt = title;
+        lightboxTitle.textContent = title;
+        lightbox.classList.add('is-open');
+        lightbox.setAttribute('aria-hidden', 'false');
+        document.body.classList.add('lightbox-open');
+      }
+
+      function closeLightbox() {
+        lightbox.classList.remove('is-open');
+        lightbox.setAttribute('aria-hidden', 'true');
+        document.body.classList.remove('lightbox-open');
+      }
+
+      galleryButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          openLightbox(button.dataset.src, button.dataset.title);
+        });
+      });
+
+      closeButton.addEventListener('click', closeLightbox);
+
+      lightbox.addEventListener('click', (event) => {
+        if (event.target === lightbox) {
+          closeLightbox();
+        }
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && lightbox.classList.contains('is-open')) {
+          closeLightbox();
+        }
+      });
+    </script>
+  </body>
 </html>
